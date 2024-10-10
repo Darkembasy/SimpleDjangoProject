@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.home{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.home:hover {
+    color: white;
+    background-color: black;
+}
+h1 {
+     font-size: 28px;
+     font-weight: bold;
+     color: #333;
+}
+p{
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

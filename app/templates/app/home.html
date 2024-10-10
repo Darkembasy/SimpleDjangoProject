@@ -1,0 +1,12 @@
+{% load static %}
+{% block content %}
+
+<link rel="Stylesheet" href="{% static 'css/home.css' %}"
+     <header>
+         <title>Home</title>
+        <a href="{% url 'about' %}" class="about">About</a>
+    </header>
+
+    <h1>Welcome To My Avatar</h1>
+    <img class="myAvatar" src="{% static 'images/killua.png' %}" alt="logo">
+{% endblock content %}
